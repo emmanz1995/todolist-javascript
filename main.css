@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  padding: 0;
+  margin: 0;
+}
+
+.todo-header {
+  max-width: 968px;
+  margin: 0 auto;
+}
+
+.todo-header > h2 {
+  margin-bottom: 30px;
+}
+
+.todo-form {
+  max-width: 968px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.form-control {
+  width: 85%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.add-btn {
+  width: 15%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.todo-container {
+  max-width: 968px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  list-style: none;
+  padding: 15px;
+  border: solid 1px #ddd;
+  border-radius: 5px;
+}
+
+.todo > li {
+  flex: 4;
+}
+
+.close-btn {
+  cursor: pointer;
+}
+
+.complete-btn {
+  cursor: pointer;
+  border: solid 1px #ddd;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+
+.error-message {
+  color: #ff0000;
+  max-width: 968px;
+  margin: 0 auto;
+}
